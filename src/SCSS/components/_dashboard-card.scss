@@ -1,0 +1,17 @@
+.dashboard-card {
+  position: relative;
+  display: inline-block;
+  width: 240px;
+  height: 250px;
+  margin: 0 10px 20px 0;
+  border: 1px solid $primary-clr;
+
+  &__info {
+    position: absolute;
+    bottom: 0;
+    left: -1px;
+    right: 0;
+    background-color: $primary-clr;
+    padding: 15px;
+  }
+}

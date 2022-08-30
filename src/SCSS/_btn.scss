@@ -1,0 +1,21 @@
+@import "./variables/variables";
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: white;
+  background-color: $primary-clr;
+  border: none;
+}
+
+.btn-save {
+  color: white;
+  background-color: $save-clr;
+  border: none;
+}
